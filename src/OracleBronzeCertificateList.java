@@ -3,9 +3,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class OracleBronzeCertificateList {
-    private static String EMPLOYEE_FILE_PATH = "C:\\Users\\User\\Desktop\\employee.txt";
-    private static String ORACLE_CERTIFICATE_FILE_PATH = "C:\\Users\\User\\Desktop\\oracle_bronze_certificate_list.txt";
-    private static String WRITE_FILE_PATH = "C:\\Users\\User\\Desktop\\oracle_bronze_certificate_list_name.txt";
+    private static String EMPLOYEE_FILE_PATH = "C:/Users/User/Desktop/employee.txt";
+    private static String ORACLE_CERTIFICATE_FILE_PATH = "C:/Users/User/Desktop/oracle_bronze_certificate_list.txt";
+    private static String WRITE_FILE_PATH = "C:/Users/User/Desktop/oracle_bronze_certificate_list_name.txt";
     private static HashMap<String, String> employeeCode = new HashMap<String, String>();
 
     public static void main(String args[]) {
@@ -83,7 +83,6 @@ public class OracleBronzeCertificateList {
                     }
                 }
                 stringBuilder.append(System.lineSeparator());
-
             }
             fileReader.close();
         }
